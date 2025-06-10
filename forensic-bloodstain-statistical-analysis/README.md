@@ -1,41 +1,41 @@
 # Analisi Statistica della Dispersione del Sangue negli Schizzi di Ritorno
 
-## 📋 Panoramica del Progetto
+## Panoramica del Progetto
 
 Analisi forense della proiezione all'indietro di sangue quando un proiettile colpisce un corpo, con focus sulla relazione tra distanza di sparo, dispersione e dimensione delle macchie.
 
-**Corso:** UFS05 - Basi di Statistica  
+**Corso:** Basi di Statistica  
 **Data:** Febbraio 2025  
-**Contesto:** Applicazione statistica in ambito forense per ricostruzione dinamiche di sparo
+**Contesto:** Applicazione di statistica descrittiva in ambito forense per ricostruzione dinamiche di sparo
 
-## 🎯 Obiettivi
+## Obiettivi
 
 - Esaminare la relazione tra **distanza di sparo** e **caratteristiche degli schizzi**
 - Confrontare i pattern di dispersione tra diverse armi da fuoco
 - Analizzare l'effetto delle condizioni ambientali (temperatura, umidità)
-- Fornire dati quantitativi per ricostruzioni forensi
 
-## 📊 Dataset e Metodologia
+## Dataset e Metodologia
 
 ### Dataset utilizzato
-- **16 scansioni** di fogli di carta utilizzati come superficie target
-- **Fonte:** Dataset pubblico per ricerca in analisi di pattern di macchie di sangue
+**Disclaimer**: _Il dataset originale è composto da 68 eperimenti effettuati in circostanze diverse, ne ho selezionate 16 per mantenere una certa coerenza e concentrarmi solo su alcune variabili_
+- **16 scansioni** dei supporti utilizzati come 'superficie target' relative a 16 esperimenti
+- **Fonte:** [A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Gunshot backspatters](https://www.sciencedirect.com/science/article/pii/S2352340918314689?via%3Dihub#s0010) 
 - **Condizioni sperimentali originali:**
   - Sangue suino con anticoagulante (10ml per test)
   - Distanze testate: 30, 60, 90, 120 cm
   - Armi: Smith & Wesson 9mm e Rock River Arms .223"
 
 ### Il mio contributo analitico
-- **Elaborazione digitale** delle scansioni con ImageJ
+- **Elaborazione digitale** delle scansioni con [ImageJ](https://imagej.net/ij/)
 - **Estrazione quantitativa** delle misurazioni dalle immagini
 - **Analisi statistica** dei dati estratti
 
 ### Variabili estratte con ImageJ
-- **Conteggio automatico** delle macchie per immagine
+- **Conteggio** delle macchie per immagine
 - **Misurazione area** (singole macchie e area totale coperta)
 - **Coordinate spaziali** (posizione x,y di ogni macchia)
 - **Calcolo dispersione** (deviazioni standard σx, σy)
-- **Threshold applicato:** esclusione macchie <0.2mm² per ridurre noise
+- **Threshold applicato:** esclusione macchie <0.2mm² per ridurre rumore
 
 ### Condizioni ambientali
 - **Pistola (H):** T: 18°C ±2, RU: 70% ±5
@@ -49,7 +49,6 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 **Pistola (bassa energia):**
 - Covarianza (distanza, n° macchie): -95.390,6
 - Covarianza (distanza, area media): -1,39443
-- All'aumentare della distanza: ↘ numero macchie, ↗ area media
 
 **Fucile (alta energia):**
 - Covarianza (distanza, n° macchie): -107.812
