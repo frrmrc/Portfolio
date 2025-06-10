@@ -1,4 +1,10 @@
 # Analisi Statistica della Dispersione del Sangue negli Schizzi di Ritorno
+**Disclaimer** 
+
+Questo è il primo progetto su cui ho lavorato in ITS e l'ho realizzato per l'esame di Basi di Statistica (febbraio 2025).
+Ho cominciato a lavorarci verso dicembre 2024 senza alcuna esperienza in Data Analysis, motivo per cui l'analisi può apparire un po' spartana e non portataa avanti con i migliori strumenti. 
+Ritengo si tratti comunque di un progetto ben strutturato, di un certo spessore e che può offrire spunti interessanti per future analisi.
+Sarebbe interessante apllicare algoritmi di clustering e classificazione considerando che il dataset originale è molto ben fatto e abbastaza ricco (per la tematica). 
 
 ## Panoramica del Progetto
 
@@ -34,8 +40,6 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 - **Conteggio** delle macchie per immagine
 - **Misurazione area** (singole macchie e area totale coperta)
 - **Coordinate spaziali** (posizione x,y di ogni macchia)
-- **Calcolo dispersione** (deviazioni standard σx, σy)
-- **Threshold applicato:** esclusione macchie <0.2mm² per ridurre rumore
 
 ### Condizioni ambientali
 - **Pistola (H):** T: 18°C ±2, RU: 70% ±5
@@ -63,13 +67,13 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 ## 🛠 Strumenti e Tecniche
 
 - **ImageJ:** Elaborazione e analisi quantitativa delle scansioni
-  - Segmentazione automatica delle macchie
+  - Segmentazione delle macchie
   - Misurazione parametri morfometrici
   - Estrazione coordinate spaziali
 - **Excel:** Analisi statistica dei dati estratti
   - Calcoli di covarianza e correlazioni
   - Aggregazione dati per condizione sperimentale
-- **Visualizzazione:** Grafici comparativi per interpretazione risultati
+  - Grafici comparativi per interpretazione risultati
 
 ## 📁 Struttura Repository
 
@@ -77,51 +81,35 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 forensic-bloodstain-analysis/
 ├── README.md
 ├── data/
-│   ├── raw_measurements.xlsx
-│   └── experimental_conditions.csv
+│   ├──experiments_with_rifles
+│   └──experiments_with_guns 
 ├── analysis/
-│   ├── statistical_analysis.xlsx
-│   └── covariance_calculations.xlsx
+│   ├──statistical_analysis_rifles.xlsx
+│   └──statistical_analysis_guns.xlsx
 ├── presentation/
-│   ├── bloodstain_analysis_presentation.pdf
-│   └── methodology_slides.pdf
-├── docs/
-│   └── methodology_notes.md
-└── images/
-    ├── sample_scans/
-    └── result_charts/
+    └── bloodstain_analysis_presentation.pdf
+
 ```
 
-## 🔍 Domande di Ricerca Affrontate
+## Domande di Ricerca Affrontate
 
 1. **Come cambia la distribuzione delle macchie con la distanza?**
    - Relazione inversa confermata statisticamente
    
 2. **Le due armi producono schemi diversi?**
-   - Fucile mostra maggiore frammentazione e dispersione
+   - Fucile mostra maggiore frammentazione e dispersione,
+   - Le covarianze (distanza, _altra variabile_) hanno valori più "estremi" nel caso del fucile
    
 3. **Effetto delle condizioni ambientali?**
-   - Temperatura e umidità influenzano significativamente i pattern
+   - Temperatura e umidità hanno una certa influenza
 
-## 🎓 Competenze Dimostrate
+## Competenze Dimostrate
 
 - **Elaborazione immagini scientifiche** con ImageJ
-- **Estrazione dati quantitativi** da immagini digitali
 - **Analisi statistica** di dataset sperimentali
 - **Interpretazione quantitativa** di fenomeni fisici
 - **Comunicazione scientifica** di risultati tecnici
-- **Metodologia rigorosa** nella gestione dati (threshold, controllo qualità)
+- **Metodologia rigorosa** nella gestione dati (threshold)
 
-## 📚 Riferimenti
-
-- Dataset basato su: "A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Gunshot backspatters"
-- Software di analisi: ImageJ per elaborazione immagini
-
-## 📧 Contatti
-
-**Marco Ferrarini**  
-[Il tuo email/LinkedIn]
-
----
-
-*Questo progetto dimostra l'applicazione di tecniche statistiche fondamentali in un contesto forense reale, evidenziando capacità di analisi quantitativa e interpretazione scientifica.*
+================================================================
+## Dai un'occhiata al pdf che trovi nella cartella presentation!
