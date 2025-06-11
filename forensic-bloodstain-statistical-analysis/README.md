@@ -105,11 +105,12 @@ forensic-bloodstain-analysis/
 
 ## Competenze Dimostrate
 
-- **Elaborazione immagini scientifiche** con ImageJ
+- **Elaborazione di immagini scientifiche** con ImageJ
 - **Analisi statistica** di dataset sperimentali
 - **Interpretazione quantitativa** di fenomeni fisici
 - **Comunicazione scientifica** di risultati tecnici
-- **Metodologia rigorosa** nella gestione dati (threshold)
+- **Metodologia rigorosa** nella gestione dati (threshold, bias)
+- 
 
 ================================================================
 ## Dai un'occhiata al pdf che trovi nella cartella presentation!
