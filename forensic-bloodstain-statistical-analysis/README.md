@@ -86,7 +86,7 @@ forensic-bloodstain-analysis/
 ├── analysis/
 │   ├──statistical_analysis_rifles.xlsx
 │   └──statistical_analysis_guns.xlsx
-├── presentation/
+└── presentation/
     └── bloodstain_analysis_presentation.pdf
 
 ```
