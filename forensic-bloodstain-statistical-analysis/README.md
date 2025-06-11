@@ -2,9 +2,9 @@
 **Disclaimer** 
 
 Questo è il primo progetto su cui ho lavorato in ITS e l'ho realizzato per l'esame di Basi di Statistica (febbraio 2025).
-Ho cominciato a lavorarci verso dicembre 2024 senza alcuna esperienza in Data Analysis, motivo per cui l'analisi può apparire un po' spartana e non portataa avanti con i migliori strumenti. 
+Ho cominciato a lavorarci verso dicembre 2024 senza alcuna esperienza in Data Analysis, motivo per cui l'analisi può apparire un po' spartana e non portata avanti con i migliori strumenti. 
 Ritengo si tratti comunque di un progetto ben strutturato, di un certo spessore e che può offrire spunti interessanti per future analisi.
-Sarebbe interessante apllicare algoritmi di clustering e classificazione considerando che il dataset originale è molto ben fatto e abbastaza ricco (per la tematica). 
+Sarebbe interessante fare task di clustering e classificazione considerando che il dataset originale è molto ben fatto e abbastaza ricco (per la tematica). 
 
 ## Panoramica del Progetto
 
@@ -12,7 +12,6 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 
 **Corso:** Basi di Statistica  
 **Data:** Febbraio 2025  
-**Contesto:** Applicazione di statistica descrittiva in ambito forense per ricostruzione dinamiche di sparo
 
 ## Obiettivi
 
@@ -24,11 +23,11 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 
 ### Dataset utilizzato
 **Disclaimer**: _Il dataset originale è composto da 68 eperimenti effettuati in circostanze diverse, ne ho selezionate 16 per mantenere una certa coerenza e concentrarmi solo su alcune variabili_
-- **16 scansioni** dei supporti utilizzati come 'superficie target' relative a 16 esperimenti. [Scarica la porzione di dataset che ho usato]()
+- **16 scansioni** dei supporti utilizzati come 'superficie target' relative a 16 esperimenti. [Scarica la porzione di dataset che ho usato](https://www.kaggle.com/datasets/marcoferrarini/bpa-scans/data)
 - **Fonte:** [A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Gunshot backspatters](https://www.sciencedirect.com/science/article/pii/S2352340918314689?via%3Dihub#s0010) 
 - **Condizioni sperimentali originali:**
   - Sangue suino con anticoagulante (10ml per test)
-  - Distanze testate: 30, 60, 90, 120 cm
+  - Distanze testate (intese come distanza tra il foglio di carta ed il contenitore con il sangue): 30, 60, 90, 120 cm
   - Armi: Smith & Wesson 9mm e Rock River Arms .223"
 
 ### Il mio contributo analitico
@@ -75,7 +74,7 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
   - Aggregazione dati per condizione sperimentale
   - Grafici comparativi per interpretazione risultati
 
-## 📁 Struttura Repository
+## Struttura Repository
 
 ```
 forensic-bloodstain-analysis/
