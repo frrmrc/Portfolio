@@ -1,3 +1,8 @@
+![Forensic Analysis](https://img.shields.io/badge/Domain-Forensic%20Analysis-red)
+![Statistical Modeling](https://img.shields.io/badge/Method-Statistical%20Modeling-blue)
+![ImageJ](https://img.shields.io/badge/Tool-ImageJ-green)
+![Excel](https://img.shields.io/badge/Analysis-Excel-orange)
+![Academic Project](https://img.shields.io/badge/Type-Academic%20Project-purple)
 # Analisi Statistica della Dispersione del Sangue negli Schizzi di Ritorno
 **Disclaimer** 
 
