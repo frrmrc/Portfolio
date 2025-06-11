@@ -63,7 +63,7 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 - **Potenza arma ↗ = Frammentazione ↗**
 - **Condizioni ambientali** influenzano significativamente i pattern
 
-## 🛠 Strumenti e Tecniche
+## Strumenti e Tecniche
 
 - **ImageJ:** Elaborazione e analisi quantitativa delle scansioni
   - Segmentazione delle macchie
