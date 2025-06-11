@@ -1,3 +1,4 @@
+![Statistical Analysis](https://img.shields.io/badge/Method-Statistical%20Analysis-blue)
 ![Forensic Analysis](https://img.shields.io/badge/Domain-Forensic%20Analysis-red)
 ![ImageJ](https://img.shields.io/badge/Tool-ImageJ-green)
 ![Excel](https://img.shields.io/badge/Analysis-Excel-orange)
