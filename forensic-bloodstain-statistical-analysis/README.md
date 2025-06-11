@@ -45,7 +45,7 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 - **Fucile (R):** T: 14.5°C ±1, RU: 55% ±5
 - *Eccezioni documentate per esperimenti specifici*
 
-## 📈 Principali Risultati
+## Principali Risultati
 
 ### Correlazioni statistiche identificate
 
