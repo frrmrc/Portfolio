@@ -24,7 +24,7 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 
 ### Dataset utilizzato
 **Disclaimer**: _Il dataset originale è composto da 68 eperimenti effettuati in circostanze diverse, ne ho selezionate 16 per mantenere una certa coerenza e concentrarmi solo su alcune variabili_
-- **16 scansioni** dei supporti utilizzati come 'superficie target' relative a 16 esperimenti
+- **16 scansioni** dei supporti utilizzati come 'superficie target' relative a 16 esperimenti. [Scarica la porzione di dataset che ho usato]()
 - **Fonte:** [A data set of bloodstain patterns for teaching and research in bloodstain pattern analysis: Gunshot backspatters](https://www.sciencedirect.com/science/article/pii/S2352340918314689?via%3Dihub#s0010) 
 - **Condizioni sperimentali originali:**
   - Sangue suino con anticoagulante (10ml per test)
@@ -80,9 +80,6 @@ Analisi forense della proiezione all'indietro di sangue quando un proiettile col
 ```
 forensic-bloodstain-analysis/
 ├── README.md
-├── data/
-│   ├──experiments_with_rifles
-│   └──experiments_with_guns 
 ├── analysis/
 │   ├──statistical_analysis_rifles.xlsx
 │   └──statistical_analysis_guns.xlsx
