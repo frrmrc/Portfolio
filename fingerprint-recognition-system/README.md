@@ -37,9 +37,6 @@ fingerprint-recognition/
 │   ├── sample_data/
 │   └── README.md
 └── examples/
-    ├── sample_output/
-    └── demo_screenshots/
-
 ```
 
 ## Architettura del Sistema
