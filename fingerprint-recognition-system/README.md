@@ -27,6 +27,7 @@ fingerprint-recognition/
 ├── requirements.txt
 ├── .gitignore
 ├── presentation.pdf
+├── documentation.pdf
 ├── src/
 │   ├── main.py
 │   ├── core.py
@@ -140,7 +141,7 @@ Gestisce confronto e scoring:
 
 ## Dataset Utilizzato
 
-- **Fonte**: [SOCOFing](https://www.kaggle.com/datasets/lingll/socofing)
+- **Fonte**: [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing)
 - **Dimensione**: 6.000 immagini originali + 49.270 "danneggiate" divise in 3 livelli (easy, medium, hard) per testing
 - **Metadati**: Sesso, mano, dito, tipo di alterazione se alterate
 - **Formato**: Normalizzato a 241x298px
