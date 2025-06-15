@@ -1,5 +1,5 @@
 **Here you can find a few fingerprint scans you can use to test the my software without downloading the whole dataset.
-I included original, rotated and "currupted" fingerprints.**
+I included original and "currupted" fingerprints.**
 
 **Have fun!**
 
